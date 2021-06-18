@@ -4,7 +4,7 @@ import subprocess
 from sys import stdin
 
 s = socket.socket()
-host = '192.168.60.135'
+host = ''
 port = 1337
 
 s.connect((host, port))
